@@ -1,0 +1,82 @@
+/* Some CSS Setup - nothing to do with flexbox */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  overflow: hidden;
+  background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+}
+
+a {
+  color:white;
+}
+
+.cover  {
+  height:100vh;
+  width:100%;
+}
+
+/*Video*/
+
+.dog {
+  height:100%;
+  -webkit-filter:blur(5px);
+  filter:blur(5px);
+  position: absolute;
+  top: 0;
+}
+
+/*Hack to get them to align properly */
+.flex-form > *:not([type="date"]) {
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+}
+
+.flex-form input[type="submit"] {
+  background:#FF5A5F;
+  border-top: 1px solid #FF5A5F;
+  border-bottom: 1px solid #FF5A5F;
+  color:white;
+}
+
+.flex-form > * {
+  border:0;
+  padding:10px;
+  background:white;
+  line-height:50px;
+  font-size: 20px;
+  border-radius:0;
+  outline:0;
+  border-right:1px solid rgba(0,0,0,0.2);
+  -webkit-appearance:none;
+}
+
+.flex-form > *:last-child {
+  border-right: 0;
+}
+
+/*Flexbox Starts Here*/
+
+.cover {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.flex-form {
+  z-index: 10;
+  border:20px solid rgba(0,0,0,0.3);
+  border-radius:5px;
+  display:flex;
+}
+
+input[type="search"] {
+  flex-basis:500px;
+}
