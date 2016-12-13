@@ -136,7 +136,8 @@ a.button {
 */
 
 .icon-bar {
-  display:flex;
+  display: flex;
+  flex-shrink: 0;
 }
 
 .icon-bar a {
