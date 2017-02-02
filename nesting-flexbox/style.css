@@ -44,3 +44,28 @@ a:hover {
     padding: 0;
     display: flex;
 }
+
+.slider-nav li {
+    flex: 2;
+    text-align: center;
+    display: flex;
+}
+
+.slider-nav a {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.slider-nav .arrow {
+    flex: 1;
+}
+
+.arrow a {
+    font-size: 30px;
+}
+
+.slider-nav span {
+    display: block;
+    width: 100%;
+}
