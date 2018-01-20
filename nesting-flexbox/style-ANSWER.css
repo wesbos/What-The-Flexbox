@@ -54,15 +54,14 @@ a:hover {
 }
 
 .slider-nav a {
-  align-items:center;
+  justify-content: center;
   flex:1;
   display:flex;
   padding:20px 5px;
 }
 
 .slider-nav span {
-  display: block;
-  flex:1;
+  align-self: center;
   text-align: center;
 }
 
