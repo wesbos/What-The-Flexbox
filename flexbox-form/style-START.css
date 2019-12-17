@@ -47,6 +47,11 @@ a {
   color:white;
 }
 
+.flex-form {
+  z-index: 10;
+  position: relative;
+}
+
 .flex-form > * {
   border:0;
   padding:10px;
