@@ -56,7 +56,6 @@ a.button {
 
 
 .icon-bar a {
-  flex:1;
   text-align: center;
   padding:1.5rem;
   border-left:1px solid rgba(0,0,0,0.1);
