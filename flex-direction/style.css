@@ -35,10 +35,16 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   border:10px solid goldenrod;
   min-height:100vh;
 
-  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+
+
+
+
 
 }
 
-/* .box {
-  width:30%;
-} */
+.box {
+  width: calc(33.333% - 1.3rem);
+  margin: .65rem;
+}
