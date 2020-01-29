@@ -6,6 +6,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 
+
 /* Some default styles to make each box visible */
 .box {
   color:white;
@@ -33,9 +34,11 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
   border:10px solid goldenrod;
   min-height:100vh;
-  flex-wrap:wrap;
+
+  flex-direction: column-reverse;
+
 }
 
-.box {
-  width:33.3333333%;
-}
+/* .box {
+  width:30%;
+} */
