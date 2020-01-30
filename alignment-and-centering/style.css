@@ -39,7 +39,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 .box {
-  flex: initial;
+  flex: flex;
 }
 
 .box10 {
