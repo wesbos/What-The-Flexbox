@@ -39,9 +39,10 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 .box {
-  flex: auto;
+  flex: initial;
 }
 
 .box10 {
-  order: 2;
+  order: 3
+  ;
 }
