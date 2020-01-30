@@ -9,7 +9,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* Some default styles to make each box visible */
 .box {
   color:white;
-  font-size: 100px;
+  font-size: 10px;
   text-align: center;
   text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
@@ -27,30 +27,22 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box9 { background:#2ecc71;}
 .box10 { background:#16a085;}
 .box11 { background:#09493c;}
-.box11 { background:#09493c;}
+
 
 
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display:flex;
-  border:10px solid mistyrose;
-  height:100vh;
-  align-items:flex-start;
+  /* justify-content: center; */
+  flex-direction: row-reverse;
+  min-height: 100vh;
 }
 
 .box {
-  width:33.333%;
+  flex: flex;
 }
 
-.box2 {
-  padding-bottom: 200px;
-}
-
-.box6 {
-  padding-bottom: 0;
-}
-
-.box9 {
-  padding-bottom: 50px;
-  align-self:stretch;
+.box10 {
+  order: 3
+  ;
 }
