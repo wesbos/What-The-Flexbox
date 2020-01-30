@@ -34,7 +34,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display:flex;
   /* justify-content: center; */
-  flex-direction: row-reverse;
+  flex-direction: row;
   min-height: 90vh;
 }
 
