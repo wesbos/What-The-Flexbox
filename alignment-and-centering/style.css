@@ -36,15 +36,16 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   border: 5px solid goldenrod;
   display:flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column-reverse;
   align-items: stretch;
 
-  min-height: 50vh;
+  min-height: 100vh;
 }
 
 
 .box1 {
   font-size: 50px;
+  order: 2;
 }
 .box10 {
   font-size: 30px;
