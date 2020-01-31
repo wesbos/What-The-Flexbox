@@ -9,7 +9,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* Some default styles to make each box visible */
 .box {
   color:white;
-  font-size: 10px;
+  font-size: 100px;
   text-align: center;
   text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
@@ -35,16 +35,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   border: 5px solid goldenrod;
   display:flex;
-  justify-content: space-around;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.box {
-  flex: flex;
-}
-
-.box10 {
-  order: 3
-  ;
+  justify-content: flex-start;
+  flex-direction: row;
+  /* min-height: 100vh; */
 }
