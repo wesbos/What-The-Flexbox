@@ -35,15 +35,22 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   border: 5px solid goldenrod;
   display:flex;
-  justify-content: center;
-  flex-direction: column-reverse;
-  align-items: stretch;
+  flex-wrap: wrap;
+  align-content: center;
+/* justify-content: center; */
+
+
 
   min-height: 100vh;
 }
 
+.box {
+  width: calc(33.333% - 20px);
+  margin: 10px;
+}
 
-.box1 {
+
+/* .box1 {
   font-size: 50px;
   order: 2;
 }
@@ -61,4 +68,4 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 .box8 {
   font-size: 150px;
-}
+} */
