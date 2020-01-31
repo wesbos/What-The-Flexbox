@@ -35,7 +35,29 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   border: 5px solid goldenrod;
   display:flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: row;
-  /* min-height: 100vh; */
+  align-items: stretch;
+
+  min-height: 50vh;
+}
+
+
+.box1 {
+  font-size: 50px;
+}
+.box10 {
+  font-size: 30px;
+}
+.box2 {
+  font-size: 20px;
+}
+.box4 {
+  font-size: 80px;
+}
+.box6 {
+  font-size: 55px;
+}
+.box8 {
+  font-size: 150px;
 }
