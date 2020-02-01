@@ -33,6 +33,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display:flex;
   flex-wrap: wrap;
+  justify-content: center;
 
 }
 
