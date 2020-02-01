@@ -40,6 +40,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .box {
   flex:1;
+  order: 2;
 }
 
 .box3 {
