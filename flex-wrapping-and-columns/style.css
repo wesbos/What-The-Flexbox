@@ -44,7 +44,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 .box {
-  width: calc(33.333% - 20px);
+  min-width: calc(33.333% - 20px);
   margin: 10px;
 }
 
