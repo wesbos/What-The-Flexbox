@@ -34,6 +34,7 @@ a:hover {
   max-width: 1000px;
   margin: 0 auto;
   padding:50px;
+
 }
 
 /* Flex Box Starts Here! */
@@ -59,7 +60,7 @@ a:hover {
 
 
 @media all and (max-width:1000px) {
-  
+
   .flex-nav ul {
     flex-wrap:wrap;
   }
@@ -75,7 +76,7 @@ a:hover {
 }
 
 @media all and (max-width:500px) {
-  
+
   .flex-nav li {
     flex-basis:100%;
   }
