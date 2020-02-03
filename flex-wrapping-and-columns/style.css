@@ -35,22 +35,13 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   border: 5px solid goldenrod;
   display: flex;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   align-items: flex-start;
+  flex-wrap: wrap;
 
 }
 
 
 .box {
-  /* flex-basis:250px; */
-  flex-grow:1;
+  flex: 1;
 }
-
-
-.box3 {
-  flex-grow:2;
-}
-
-/* .box4 {
-  flex-basis:150px;
-} */
