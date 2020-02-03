@@ -26,6 +26,8 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box8 { background:#bdc3c7;}
 .box9 { background:#2ecc71;}
 .box10 { background:#16a085;}
+.box11 { background:#d2e80e;}
+.box12 { background:#911ab5;}
 
 
 /* We start writing out flexbox here. The above is just page setup */
@@ -33,14 +35,17 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   border: 10px solid goldenrod;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
   /* flex-direction: column; */
+  height: 100vh;
+  align-content: center;
 
-  align-items: center;
- min-height: 100vh;
+}
 
-
-
+.box {
+  width: calc(33.333% - 20px);
+  margin: 10px;
 }
 
 
