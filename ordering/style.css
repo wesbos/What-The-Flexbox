@@ -34,13 +34,19 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 .box {
-  flex:1;
+  flex:1; /* evenly distributes each element along the width of the page*/
+  order:1;/* starts at zero by default, must change if I want each box to be order 1*/
 }
 
-.box3 {
-  order:1;
+.box4 {
+  order:3; /* boxes will be ordered 1,2,3,5,6,7,8,9,10,4 --- everything before 4 will still have order 1 */
+}
+
+.box7 {
+  order:2; /* when this is added boxes will be 1,2,3,5,6,8,9,10,7,4 everything before 7 will have order 1 7 will be order 2, 4 will be order 3*/
 }
 
 .box5 {
-  order:2;
+  order: 0; /* order will be 5,1,2,3,6,8,9,10,7,4*/
 }
+
