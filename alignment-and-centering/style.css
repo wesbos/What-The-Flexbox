@@ -40,7 +40,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 
 /* alignment using align-item*/
-.container {
+/* .container {
   display: flex;
   border: solid 10px aquamarine;
   align-items: flex-start;
@@ -49,5 +49,20 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .box {
   flex: 1
+} */
+
+
+/* alignment using align-content*/
+.container {
+  display: flex;
+  border: solid 10px mistyrose;
+  height: 100vh;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  /* can pair align-content and justify-content to center along main and cross axis*/
 }
 
+.box {
+  width: 33.33%;
+}
