@@ -9,7 +9,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* Some default styles to make each box visible */
 .box {
   color:white;
-  font-size: 20px;
+  font-size: 50px;
   text-align: center;
   text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
@@ -42,5 +42,12 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* alignment using align-item*/
 .container {
   display: flex;
+  border: solid 10px aquamarine;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.box {
+  flex: 1
 }
 
