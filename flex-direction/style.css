@@ -33,9 +33,10 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
   border:10px solid goldenrod;
   min-height:100vh;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
-
-.box {
-  width:33.3333333%;
+/* all the flex items*/
+.box { 
+  width: 300px; /* will fit the items to the screen size even if the px specified wont fit*/
+  border: 20px solid red;/* padding and border are part of the box model, margin is not */
 }
