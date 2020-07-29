@@ -33,12 +33,26 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
 }
 
+/* .box {
+  flex-grow: 1; 
+  same as flex: 1
+} */
+
 .box1 {
-  flex:10 5 400px;
+  /* flex-basis: 400px;
+  flex-grow: 15;
+  flex-shrink: 15; */
+  flex: 15 15 400px;
+  /* shorter syntax first number is flex-grow flex-shrink flex-basis*/
 }
 
 .box2 {
-  flex:1 1 400px;
+  /* flex-basis: 400px;
+  flex-grow: 1; */
+  flex: 1 400px;
 }
 
+.box3 {
+  flex-basis: 400px;
+}
 
