@@ -31,24 +31,31 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display:flex;
-  flex-wrap:wrap;
-  flex-direction:column;
-  border:10px solid goldenrod;
-  height:100vh;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .box {
-  flex-basis:250px;
-  flex-grow:1;
+  flex-basis: 250px;
+  flex-grow: 1;
 }
 
+.box1 {
+  flex-grow: 1;
+}
 
 .box3 {
-  flex-grow:5;
+  flex-grow: 5;
+}
+
+.box5 {
+  flex-grow: 5;
+  flex-shrink: 10;
 }
 
 .box4 {
-  flex-basis:100px;  
+  flex-basis: 15px;
 }
 
 
