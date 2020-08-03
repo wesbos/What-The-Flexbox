@@ -34,10 +34,37 @@ a:hover {
   background:rgba(0,0,0,0.4);
 }
 
-
+/* Flex Container */
 .slider-nav ul {
   list-style: none;
   margin: 0;
   padding: 0; 
+  display: flex;
+}
+/* Flex Item and Flex Container for nested Flex Items*/
+.slider-nav li {
+  flex: 2;
+  border: 1px solid red;
+  text-align: center;
+  display: flex;
+}
+/* Nested Flex Item */
+.slider-nav .arrow {
+  flex: 1;
+}
+
+.arrow a {
+  font-size: 30px;
+}
+/* Another nested Flex Container */
+.slider-nav a {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+}
+/* Nested Flex Item */
+.slider-nav span {
+  display: block;
+  width: 100%;
 }
 
