@@ -54,9 +54,32 @@ a {
   margin: 10px 0;
 }
 
-
+/* Flex Container */ 
 .pricing-grid {
   max-width:750px;
   margin: 0 auto;
+  border: 10px solid red;
+  display: flex;
   
+}
+/* Flex item of .pricing-grid and Flex Container for .plan > */ 
+.plan {
+  flex: 1;
+  background: rgba(255,255,255,0.2);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* all direct descendents of .plan Flex Container */
+/* Flex Items within nested Flex Container*/
+.plan > * {
+  flex: 1;
+  flex-basis: 100%;
+}
+/* aligns button at the end of each card */
+.plan .cta {
+  align-self: flex-end;
 }
