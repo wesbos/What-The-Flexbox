@@ -98,7 +98,40 @@ a.button {
 
 */
 
+/*
+Overall Layout
+*/
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-wrap > * {
+  flex: 1 1 auto;
+}
 
 /*
-  Overall Layout
+Header
 */
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*
+Content
+*/
+
+.content {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+/*
+Icon Bar/Footer
+*/
+.icon-bar {
+  display: flex;
+}
