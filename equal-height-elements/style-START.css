@@ -34,3 +34,13 @@ a {
 
 /* Flexbox Starts Here: */
 
+/* FLex Container */
+.elements {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 0 1 calc(33.33% - 20px);
+  /* flex: 0 says 'don't do anything with the extra space, if I set it to 1 the two items at the bottom will grow to the width of the screen */
+}
