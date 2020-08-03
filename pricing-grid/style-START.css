@@ -58,9 +58,7 @@ a {
 .pricing-grid {
   max-width:750px;
   margin: 0 auto;
-  border: 10px solid red;
-  display: flex;
-  
+  display: flex;  
 }
 /* Flex item of .pricing-grid and Flex Container for .plan > */ 
 .plan {
