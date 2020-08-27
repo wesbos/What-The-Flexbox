@@ -1,0 +1,23 @@
+.flex-container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container-3 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container-4 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
