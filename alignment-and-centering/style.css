@@ -29,28 +29,13 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 
 /* We start writing out flexbox here. The above is just page setup */
+
 .container {
-  /*
-  there is a  difference between
-  inline flex vs
-  flex ; all the way across
-
-  */
-
   display: flex;
-  /* display: inline-flex; */
-  border: 10px solid goldenrod;
-  height: 100vh;
-  flex-direction: column;
-  /*
-  flex-direction: row left to right;
-  flex-direction: column top to bottom;
+  border: solid 10px goldenrod;
+  justify-content: center;
 
-  */
-  flex-wrap: wrap;
 }
 
 .box{
-  /* width get evenly distributed */
-  width: 25%;
 }
