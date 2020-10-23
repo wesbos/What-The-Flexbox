@@ -33,4 +33,16 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
 }
 
+/* everything is order starting at #1 */
+.box{
+  flex:1;
+  order: 1;
+}
 
+.box3{
+  order:5;
+}
+
+.box7{
+  order:6;
+}
