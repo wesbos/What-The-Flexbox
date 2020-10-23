@@ -33,14 +33,4 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
 }
 
-.box {
-  flex:1;
-}
 
-.box3 {
-  order:1;
-}
-
-.box5 {
-  order:2;
-}

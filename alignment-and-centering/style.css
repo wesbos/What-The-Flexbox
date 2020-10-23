@@ -39,8 +39,18 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
   display: flex;
   /* display: inline-flex; */
-  border: 10px solid;
+  border: 10px solid goldenrod;
+  height: 100vh;
+  flex-direction: column;
+  /*
+  flex-direction: row left to right;
+  flex-direction: column top to bottom;
 
+  */
+  flex-wrap: wrap;
 }
 
-
+.box{
+  /* width get evenly distributed */
+  width: 25%;
+}
