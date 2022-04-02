@@ -13,6 +13,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   text-align: center;
   text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
+
 }
 
 /* Colours for each box */
@@ -26,29 +27,49 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box8 { background:#bdc3c7;}
 .box9 { background:#2ecc71;}
 .box10 { background:#16a085;}
+.box11 { background:#09493c;}
+
 
 
 /* We start writing out flexbox here. The above is just page setup */
 .container {
+  border: 5px solid goldenrod;
   display:flex;
-  border:10px solid mistyrose;
-  height:100vh;
-  align-items:flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+/* justify-content: center; */
+
+
+
+  min-height: 100vh;
 }
 
 .box {
-  width:33.333%;
+  width: calc(33.333% - 20px);
+  margin: 10px;
 }
 
+.box10 {
+  align-self: center;
+}
+
+/* .box1 {
+  font-size: 50px;
+  order: 2;
+}
+.box10 {
+  font-size: 30px;
+}
 .box2 {
-  padding-bottom: 200px;
+  font-size: 20px;
 }
-
+.box4 {
+  font-size: 80px;
+}
 .box6 {
-  padding-bottom: 0;
+  font-size: 55px;
 }
-
-.box9 {
-  padding-bottom: 50px;
-  align-self:stretch;
-}
+.box8 {
+  font-size: 150px;
+} */

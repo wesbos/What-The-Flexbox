@@ -26,19 +26,23 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box8 { background:#bdc3c7;}
 .box9 { background:#2ecc71;}
 .box10 { background:#16a085;}
-
+.box11 { background:#d2e80e;}
+.box12 { background:#911ab5;}
 
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+
 }
 
-.box1 {
-  flex:10 5 400px;
+.box {
+  flex:1;
+  order: 2;
 }
 
-.box2 {
-  flex:1 1 400px;
+.box3 {
+  flex: 4;
 }
-
-
