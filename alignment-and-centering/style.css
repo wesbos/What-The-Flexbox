@@ -202,26 +202,10 @@ input::-moz-focus-inner {
   display: flex;
   border: 10px solid mistyrose;
   height: 100vh;
-  align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
-.box1 {
-  font-size: 30px;
-}
-
-.box3 {
-  font-size: 150px;
-}
-
-.box4 {
-  font-size: 200px;
-}
-
-.box5 {
-  font-size: 10px;
-}
-
-.box10 {
-  font-size: 77px;
+.box {
+  width: 33.333%;
 }
