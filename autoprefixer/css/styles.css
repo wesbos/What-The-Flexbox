@@ -1,15 +1,16 @@
 .container {
-  display:flex;
-  flex-direction:column;
-  align-content:center;
-  justify-content:center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
 .box1 {
-  flex:10 5 450px;
+  flex: 10 5 450px;
 }
 
 .box2 {
-  flex:1 1 360px;
+  flex: 1 1 360px;
 }
 
+//start

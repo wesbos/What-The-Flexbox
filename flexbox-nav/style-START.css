@@ -3,7 +3,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -14,45 +16,39 @@ body {
 }
 
 a {
-  color:white;
+  color: white;
   font-weight: 100;
   letter-spacing: 2px;
   text-decoration: none;
-  background:rgba(0,0,0,0.2);
-  padding:20px 5px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px 5px;
   display: inline-block;
   width: 100%;
   text-align: center;
-  transition:all 0.5s;
+  transition: all 0.5s;
 }
 
 a:hover {
-  background:rgba(0,0,0,0.3);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
-  padding:50px;
+  padding: 50px;
 }
-
 
 /* Flex Container */
 .flex-nav ul {
-  border:1px solid black;
+  border: 1px solid black;
   list-style: none;
   margin: 0;
   padding: 0;
-  
 }
 
-
-@media all and (max-width:1000px) {
-  
-
+@media all and (max-width: 1000px) {
 }
 
-@media all and (max-width:500px) {
-  
-
+@media all and (max-width: 500px) {
 }
+//start
