@@ -3,7 +3,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -14,7 +16,7 @@ body {
 }
 
 a {
-  color:white;
+  color: white;
 }
 
 .plan ul {
@@ -24,8 +26,8 @@ a {
 }
 
 .plan ul li {
-  border-bottom: 1px solid rgba(0,0,0,0.1);
-  padding:10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
 }
 
 .plan ul li:last-child {
@@ -34,18 +36,17 @@ a {
 
 .plan a {
   text-decoration: none;
-  background:#FEFF00;
-  padding:10px;
-  color:black;
-  border-radius:4px;
+  background: #feff00;
+  padding: 10px;
+  color: black;
+  border-radius: 4px;
 }
-
 
 .plan h2 {
   text-transform: uppercase;
-  color:white;
+  color: white;
   letter-spacing: 2px;
-  text-shadow:3px 3px 0 rgba(0,0,0,0.1);
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 .price {
@@ -54,9 +55,8 @@ a {
   margin: 10px 0;
 }
 
-
 .pricing-grid {
-  max-width:750px;
+  max-width: 750px;
   margin: 0 auto;
-  
 }
+//start
